@@ -5,9 +5,9 @@ int main() {
     
     printf(" Digite um numero inteiro e positivo: ");
     scanf("%i", &numero);
-    printf(" %i", numero);
     
     if (numero > 0) {
+        printf(" %i", numero);
         while (numero != contagem) {
             numero = numero - 1;
             printf(" %i", numero);
